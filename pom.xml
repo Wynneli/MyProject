@@ -28,12 +28,12 @@
   <artifactId>project</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <build>
+<!--  <build>
     <plugins>
       <plugin>
-        <groupId>org.mortbay.jetty</groupId>
+      &lt;!&ndash;  <groupId>org.mortbay.jetty</groupId>
         <artifactId>maven-jetty-plugin</artifactId>
-        <version>6.1.7</version>
+        <version>6.1.7</version>&ndash;&gt;
         <configuration>
           <connectors>
             <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
@@ -46,18 +46,9 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build>-->
 
-  <groupId>com.yinhai</groupId>
-  <artifactId>easyexcel</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <dependencies>
-
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>1.18.2</version>
-    </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
